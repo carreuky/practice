@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+  }
+  .calculator {
+    background-color: skyblue;
+    height: 75%;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .display {
+    height: 39%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 40px;
+  }
+  
