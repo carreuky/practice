@@ -27,4 +27,18 @@ body {
   .last-line {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}    
+}  
+
+button {
+    padding: 12px 12px;
+    border: 1px black solid;
+    border-collapse: none;
+    font-size: 25px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+  }
+  button:hover {
+    border-color: white;
+    color: white;
+    background-color: red;
+  }
